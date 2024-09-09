@@ -1,8 +1,6 @@
 
 'use client';
-import { MdChevronLeft as ChevronLeftIcon, MdChevronRight as ChevronRightIcon } from 'react-icons/md'
-import { GoChevronDown } from 'react-icons/go'
-import { TiTick } from 'react-icons/ti'
+
 import {
     add,
     addDays,
