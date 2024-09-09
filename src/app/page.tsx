@@ -413,7 +413,7 @@ export default function DatePicker() {
                                         </span>
                                     </li>
                                     <li onClick={() => {
-                                        setReccOptions({ pattern: 'monthly', monthDays: [getDate(selectedDay), 29, 30, 31] })
+                                        setReccOptions({ pattern: 'monthly', monthDays: [getDate(selectedDay)] })
                                     }}
                                         className='flex hover:cursor-pointer hover:bg-slate-200 w-full rounded-lg pl-4 py-1'>
                                         Monthly
